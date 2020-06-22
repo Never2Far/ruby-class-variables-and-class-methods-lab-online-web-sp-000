@@ -32,8 +32,8 @@ def self.genre_count
   @@genres.each { |genre|
     genre_count[genre] ||= genre_count[genre] = 0
     genre_count[genre] += 1
-
   }
+  return genre_count
 
 end
 
